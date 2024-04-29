@@ -1,0 +1,110 @@
+.aboutme{
+    margin: 3%;
+    padding: 0;
+    
+}
+.headerabout{
+    background-image: url('../pic/picabout.JPG');
+    width: 100%;
+    padding: 15%;
+    background-size: 100% 70%;
+
+    /* background-position: 10% 65%; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.aboutme p{
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    color:#1b9bff;
+    /* float: left; */
+    padding-left: 2%;
+    font-size: 18px;
+}
+.name{
+    border-top:7px solid #1b9bff ;
+    width: 50%;
+    float: left;
+    padding-top:2% ;
+    background-color: rgb(223, 244, 251);
+    margin-bottom: 5%;
+}
+.skill{
+    
+    padding-left:15% ;
+    padding-top: 5%;
+    float: left;
+    /* margin-left: 5%; */
+    width: 50%;
+    margin-bottom: 3%;
+    /* background-color: rgb(237, 237, 237); */
+}
+.headSkill{
+    width: 70%;
+    border-left:6px solid #FFD743 ;
+    font-size: px;
+    color: #1b9bff;
+    padding: 3%;
+    background-color: rgb(240, 240, 240);
+}
+.subskill{
+    text-align: left;
+}
+.c{
+    width: 35%;
+    border-bottom: 5px solid #90ADC6 ;
+}
+.java{
+    width: 20%;
+    border-bottom: 5px solid #E1C340 ;
+
+}
+.javascript{
+    width: 15%;
+    border-bottom: 5px solid #15B5B0 ;
+
+}
+.html{
+
+    width: 50%;
+    border-bottom: 5px solid #5E376D ;
+
+}
+.css{
+
+    width: 50%;
+    border-bottom: 5px solid #F5631A ;
+
+}
+.python{
+
+    width: 40%;
+    border-bottom: 5px solid #B2D8B1 ;
+
+}
+.kotlin{
+
+    width: 55%;
+    border-bottom: 5px solid #93A387 ;
+
+}
+
+footer{
+    
+    clear: both;
+}
+#icon1{
+    color: #1b9bff;
+}
+@media (max-width:952px){
+    .name{
+        width: 100%;
+        float: none;
+    }
+    .skill{
+        width: 80%;
+        margin-bottom: 3%;
+    }
+}

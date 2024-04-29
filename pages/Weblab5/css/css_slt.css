@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');/*อิมพอร์ต ฟ้อน */
+*{
+    font-family: 'Abel', sans-serif; /*เรียกใช้ฟ้อน */
+    background-color: #E4E2EA;/*กำหนดสีพื้นหลังทั้งหมดของเว็บ */
+    
+}
+#header1{
+    border: 1px solid gray;
+     background-color: #241834; /*กำหนดสีพื้นหลัง */
+    color: white; /*กำหนดสีสีตัวอักษร */
+    margin: 4px; /*กำหนดขนาด */
+    margin-bottom: 15px; /*กำหนดขนาด */
+    padding: 8px; /*กำหนดขนาด */
+    text-align: center; /*กำหนดกึ่งกลาง*/
+}
+#header1 h1{
+    background-color: #241834; /*กำหนดสีพื้นหลัง */
+}
+.imgg1{
+    width :600px ; /*กำหนดขนาด */
+    height:300px;/*กำหนดขนาด */
+    margin-right: auto;/*กำหนดขนาดอัตโนมัติ*/
+    margin-left: auto;/*กำหนดขนาดอัตโนมัติ */
+    display: block;
+
+}
+img{
+    padding: 30px; /*กำหนดขนาด */
+    margin-right: auto; /*กำหนดขนาดอัตโนมัติ*/
+    margin-left: auto;/*กำหนดขนาดอัตโนมัติ*/
+    width :500px ;/*กำหนดขนาด */
+    height:300px;/*กำหนดขนาด */
+    display: block;
+}
+
+.f{
+    background-color:#2C2B27 ; /*กำหนดสีพื้นหลัง */
+    color: white; /*กำหนดสีสีตัวอักษร */
+    margin: 4px; /*กำหนดขนาด */
+    margin-bottom: 15px; 
+    padding: 8px; /*กำหนดขนาด */
+    text-align: center;/*กำหนดกึ่งกลาง*/
+    display: inline-block;
+}
+.textt{
+    border: 1px solid gray;
+    background-color: #241834; /*กำหนดสีพื้นหลัง */
+    color: white; /*กำหนดสีสีตัวอักษร */
+    margin: 4px; /*กำหนดขนาด */
+    margin-bottom: 15px; 
+    padding: 8px; /*กำหนดขนาด */
+    text-align: center;/*กำหนดกึ่งกลาง*/
+    display: inline-block;/*กำหนดกึ่งกลาง*/
+
+}
+#nav1,#nav2{
+    display:inline-block; 
+}
+/* li{
+    display: flex;
+    justify-content: center;
+} */
+.header2{
+    display: inline; /*กำหนดให้อยู่กึ่งกลาง */
+}
+.ull{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    display: inline;
+}
+/* .ull {
+    display: block;
+    color: white;
+    /* margin: 4px; */
+    /* margin-bottom: 15px; */
+    /* padding: 8px 0 8px 16px; */
+    /* text-decoration: none; */
+    /* width: 60px; */
+/* }*/ 
+/* #nav2{
+    display: inline;
+}
+#nav1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+.li1 {
+    display: block;
+    color: #241834;
+    list-style-type: none;
+    padding: 8px 0 8px 16px;
+}
+.li2{
+    padding: 8px 0 8px 16px;
+    background-color: #241834;
+    color: white;
+}
+.li1:hover:not(.li2){
+    background-color: #555;
+    color: white;
+} */
+
+    

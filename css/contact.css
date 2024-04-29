@@ -1,0 +1,47 @@
+.aboutme{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.piccontact img{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.piccontact{
+    width: 45%;
+    float: left;
+}
+.datecontact .data{
+    padding-top: 7%;
+    margin-right: 10%;
+    line-height: 40px;
+    font-size: 200%;
+    color: #1b9bff;
+    text-align: center;
+
+}
+.datecontact{
+    margin-top:3% ;
+    width: 45%;
+    float: left;
+    border-left:7px solid #1b9bff ;
+    background-color: rgb(239, 239, 239);
+    padding-bottom: 7%;
+    padding-right: 1%;
+    padding-left: 2%;
+    margin-bottom: 13%;
+
+
+}
+footer{
+    clear: both;
+}
+@media (max-width:952px){
+    .piccontact{
+        width: 100%;
+    }
+    .datecontact{
+        width: 70%;
+        margin-left: 20%;
+    }
+}

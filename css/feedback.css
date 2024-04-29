@@ -1,0 +1,20 @@
+.picfeedback{
+    background-image: url('https://www.pngplay.com/wp-content/uploads/6/Feedback-Button-PNG-HD-Quality.png');
+    padding-bottom: 30%;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+}
+.datafeedback{
+    border-left: 6px solid #1b9bff;
+    padding: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(240, 240, 240);
+    
+}
+.datafeedback p{
+    text-align: left;
+    color: #1b9bff;
+}

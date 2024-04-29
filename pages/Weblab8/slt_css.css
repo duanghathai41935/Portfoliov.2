@@ -1,0 +1,217 @@
+@font-face{
+    font-family: thaiFontbold;
+    src:url(/Br_breeze.ttf)
+}
+@font-face{
+    font-family: thaiFont;
+    src: url(/MN\ CHOCOLATE\ NEW.ttf);
+}
+/* *{
+    font-family: thaiFont;
+} */
+body{
+    font-family: thaiFont;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fef8d7;
+    color: #C36001;
+}
+header,footer{
+    font-family: thaiFontbold;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url(./img/background_2.png) ;
+    padding: 2%;
+    margin-bottom: 20px;
+    font-size: medium;
+    
+    
+} 
+
+footer{
+    
+    text-align: center;
+    clear: both;
+    /* padding: 5px; */
+    display: block;
+    margin-bottom: 0px;
+}
+.sec1{
+    background-color: #C36001;
+    color: white;
+    width: 50%;
+    height: 70%;
+    border-radius:50px 50px ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1px ;
+    /* display: block; */
+} 
+.sec ,.sec2{
+    font-family: thaiFontbold;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:50px 50px ;
+    display: inline;
+
+}
+.sec{
+    float: left;
+    background-color: #fef8d7;
+    color: #C36001;
+    border: 2px solid #C36001;
+
+}
+.sec:hover{
+    background-color: #C36001;
+    color: #fef8d7;
+}
+.sec2{
+    float: right;
+    background-color: #fef8d7;
+    color: #C36001;
+    border: 2px solid #C36001;
+}
+.sec2:hover{
+    background-color: #C36001;
+    color: #fef8d7;
+}
+
+
+
+.img img{
+    /* width: 50%;
+    height: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.img{
+    margin-bottom: 55px;
+}
+#photo1{
+    width: 38%;
+}
+#photo2{
+    width: 36%;
+}
+#photo3{
+    width: 23%;
+}
+#photo4{
+    width: 38%;
+}
+#photo5{
+    width: 35%;
+}
+#photoDe{
+    width: 18%;
+}
+
+#data{
+    
+    border: #C36001 dashed;
+    border-width: 10px;
+    margin-bottom: 3%;
+    padding: 3%;
+    /* margin-right: ; */
+    font-size:19px;
+    border-radius:50px 50px ;
+    margin-right: 100px;
+    margin-left: 50px;
+    box-sizing: border-box;
+
+}
+#deta{
+    margin-bottom:140px;
+}
+.font{
+    text-indent:50px;
+}
+
+nav ul {
+    width: 100%;
+    
+}
+
+#table{
+    
+    /* width: 100%; */
+    color: #D9992D;
+    list-style-type: none;
+    width: 300px;
+    font-size: medium;
+    margin-right: 60px;
+    margin: 0;
+    padding: 0;
+   
+}
+a{
+    
+    text-decoration: none;
+}
+
+
+#home{
+    font-family: thaiFontbold;
+    background-color: #C36001; 
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    height: 40px;
+    width: 300px;
+    padding: 9px;
+    padding-left: 50px;
+    padding-right: 85px;
+    
+    text-align: center;
+    
+
+        
+}
+
+.lii{
+    
+    color: #C36001;
+    
+}
+li{
+    
+    display: inline-block;
+    color: #C36001 ;
+    text-decoration: none;
+    padding:1% ;
+    margin: 3%;
+    width: 200px;
+    
+}
+
+li:hover:not(#home){
+    background-color: #f2dda8;
+    color: rgb(255, 255, 255);
+}
+
+
+.name{
+    border-radius:50px 50px ;
+    margin-left: auto;
+    margin-right: auto;
+    padding:5px ;
+    width: 80%;
+    height: 80%;
+    display: block;
+    background-color: #C36001;
+    color: white;
+}
+
+.container{
+    display: flex;
+}
+
+

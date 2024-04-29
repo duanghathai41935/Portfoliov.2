@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding:20px;
+    background-color:#594422 ;
+}
+nav ul{
+    list-style-type: none;
+    padding-left:0 ;
+}
+.menu1 li{
+    position: relative;
+}
+.menu1{
+    display: flex;
+}
+.menu1 a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 1.5rem;
+    color: white;
+}
+.menu2{
+    position: absolute;
+    background-color: #3BA2AC;
+    width: max-content;
+    left: 50%;
+    display: none;
+}
+.menu_list{
+    position: absolute;
+    background-color: #3BA2AC;
+    width: max-content;
+    left: 100%;
+    top: 0;
+    display: none;
+}
+.menu1 li:hover{
+    background-color: #594422;
+}
+.menu1 li:hover > .menu2{
+    display: block;
+}
+.menu1 li:hover > .menu_list{
+    display: block;
+}
+.lv::after{
+    position: relative;
+    content: "\25BE";
+}
+.lv1::after{
+    position: relative;
+}
+footer{
+    margin: 0;
+    padding:20px ;
+    background-color:#594422 ;
+    color: white;
+    clear: both;
+    line-height: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+#contact{
+    font-size: 14px;;
+}
+.photowelcome{
+    margin: 0;
+    padding: 0;
+    background-image: url(./background1.jpeg);
+    width:60%;
+    height: 530px;
+    background-repeat: no-repeat;
+    float: left;
+
+}
+.photowelcome p{
+    color: white;
+    text-align: center;
+    line-height: 420px;
+    font-size: xxx-large;
+}
+
+.open{
+    float: left;
+}
+section{
+    display: inline-block;
+}
+h1{
+    font-size: 50px;
+}
+#lastname{
+    text-indent: 200px;
+}
+p ,h1{
+    text-indent: 50px;
+}
+article h1{
+    color: #594422;
+    text-shadow: #463112 0.1em 0.1em 0.2em;
+    /* line-height: 1px; */
+    /* margin-top:140px ; */
+    /* margin-bottom: 100px; */
+
+}
+.text1{
+    margin-top: 120px;
+    line-height: 2px;
+}
+.text2{
+    margin-top: 110px;
+}
+article p{
+    color: #463112;
+    line-height: 3px;
+
+}
+article a{
+    border: 0px solid #594422;
+    background-color:#594422;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 72%;
+    border-radius:50px 50px ;
+    
+    
+}
+article a:hover{
+    background-color: #DBC0A4;
+    color: #463112;
+}
+.buttom{
+    margin-top:120px;
+}
+
+.photoLab{
+    width: 50%;
+    height: auto;
+    border-radius: 10px ;
+}
+ul li{
+    font-size: 20px;
+    color: #594422;
+    text-align: center;
+    line-height: 60px;
+    list-style: none;
+
+}
+#LABBORATORY{
+    text-align: center;
+    color: #594422;
+}
+
+.photoContact{
+    padding-left: 3%;
+    width: 4%;
+    height: 4%;
+}
+
+.img1{
+    display: block;
+    height:auto;
+    width: 100%;
+}
+.photoOther{
+    border-radius: 10px 10px;
+    width: 90%;
+    height: auto;
+}
+.duangg{
+    border-radius: 10px 10px;
+    width: 50%;
+    height: auto;
+    float: left;
+    display: table;
+    padding: 3%;
+}
+.AMe{
+    background-color:#e0bcab ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    font-size: 37px;
+}
+.box{
+    display: inline-block;
+    width: 29%;
+    height: 40%;
+}
+#aboutMe{
+    background: -webkit-linear-gradient(top, rgba(255,0,0,0), #C1B199); 
+    background: -o-linear-gradient(top, rgba(255,0,0,0), #C1B199); 
+    background: -moz-linear-gradient(top, rgba(255,0,0,0), #C1B199); 
+    background: linear-gradient(to bottom, rgba(255,0,0,0), #C1B199); 
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+    margin-bottom: 10px;
+    border-radius:10px 10px ;
+    height: 325px;
+    line-height: 30px;
+    
+}
+#Ctact{
+    background: -webkit-linear-gradient(top, rgba(255,0,0,0), #C1B199); 
+    background: -o-linear-gradient(top, rgba(255,0,0,0), #C1B199); 
+    background: -moz-linear-gradient(top, rgba(255,0,0,0), #C1B199); 
+    background: linear-gradient(to bottom, rgba(255,0,0,0), #C1B199); 
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius:10px 10px ;
+    height: 325px;
+}
+
+#other{
+    background: -webkit-linear-gradient(top, rgba(255,0,0,0), #C1B199); 
+    background: -o-linear-gradient(top, rgba(255,0,0,0), #C1B199); 
+    background: -moz-linear-gradient(top, rgba(255,0,0,0), #C1B199); 
+    background: linear-gradient(to bottom, rgba(255,0,0,0), #C1B199); 
+    float:left;
+    border: 2 solid black;
+    margin-right:2%;
+    border-radius:10px 10px ;
+    height: 325px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.box p{
+    font-size: xx-small;
+}
+#other img{
+    display: block;
+    margin: auto auto;
+}
+#pct1{
+    float: left;
+}
+#pct2{
+    float: left;
+    
+}
+#pct3{
+    float: left;
+}
+#pct4{
+    float: left;
+}
+#pct5{
+    float: left;
+}
+#boxAboutMe{
+    margin-top: 20px;
+}
+#textContact{
+    text-align: center;
+
+}
+#textother{
+    line-height: 20px;
+}
+#Ctact p{
+    line-height: 20px;
+}
+#aboutMe p{
+    line-height:15px;
+}
+#linkOther{
+    text-align: center;
+    color: #463112;
+}
+.sectionot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    padding: 30px;
+    width: 60%;
+    text-align: center;
+}
+

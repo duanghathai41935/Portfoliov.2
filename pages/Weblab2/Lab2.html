@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            font-family: sans-serif;
+            font-size: 0.8em;
+        }
+        header,section,article,footer{
+            border: 1px solid gray;
+            margin: 4px;
+            margin-bottom: 15px;
+            padding: 8px;
+            background-color: white;
+        
+        }
+        header,footer{
+            background-color: rgb(51, 97, 69);
+            color: white;
+            margin-bottom: 5px;
+        
+        }
+        section{
+            background-color: rgb(172, 208, 186);
+        }
+        nav ul{
+            margin: 0;
+            padding: 0;
+
+        }
+        nav ul li{
+            display: inline;
+            margin: 5px;
+        }
+
+        article aside{
+            display: inline-block;
+        }
+        canvas{
+            margin-left: 110px;
+            margin-bottom: 60px;
+            
+        }
+        aside h2{
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment#2</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Menu1</li>
+            <li>Menu2</li>
+            <li>Menu3</li>
+        </ul>
+
+    </nav>
+    <section>
+    <h2>HTML5</h2>
+        <article>
+            <h2>What is html5 (video)</h2>
+        
+               <video src="videos/video_for_ass2.mp4" width="270" controls></video>
+        
+        </article>
+        <article>
+            <h2>Image</h2>
+                <img src="Image/image_for_ass2.jpg" alt="รูปภาพดาวน์โหลด" width="280" height="150">
+                
+            <aside>
+                <h2>canvas</h2>
+                <canvas id="Mycanvas" width="150" height="65" style="border: 1px solid #000000;" >
+                   Your browser does not support the HTML canvas tag.
+                </canvas>
+            </aside>        
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2015 WDT. All rights reserved.</p>
+    </footer>
+    <script>
+        let c = document.getElementById("Mycanvas");
+        let ctx = c.getContext("2d");
+        ctx.fillStyle ="green";
+        ctx.fillRect(0,0,150,75);
+        
+    </script>
+    
+</body>
+</html>

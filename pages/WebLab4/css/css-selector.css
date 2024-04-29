@@ -1,0 +1,43 @@
+header,footer{
+    /*ส่วนหัวกับส่วนท้ายกำหนดให้ตัวหนังสือเป็นสีดำและมีกรอบพื้นหลังเป็นสีแดง 
+    และใส่centerเพื่อให้ข้อความอยู่ตรงกลาง*/
+    color: black;
+    background-color:rgb(206, 51, 30) ;
+    text-align: center;
+}
+header,section,article,footer{
+    /**/
+    border: 0px solid black;
+    padding: 5px;
+
+}
+section{
+    /*กำหนดให้พื้นหลังเป็นสีดำและกำหนดcenterเพื่อจัดวางให้อยู่ตรงกลาง*/
+    background-color: black;
+    text-align: center;
+}
+a{
+    /*กำหนดให้ tag link เป็นตัวหนังสือสีเหลืองเเละเพิ่มขนาดตัวหนังสือ*/
+    color:rgb(255, 222, 4);
+    font-size: larger;
+}
+img{
+    /*กำหนดระยะห่างของรูปภาพ ปรับให้รูปภาพยืดหยุ่นตามขนาดหน้าเว็บ และปรับขนาดความกว้างความสูง*/
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width :400px ;
+    height:200px;
+}
+article{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+
+
+}
+p{
+    /*กำหนดให้ตัวหนังสือเป็นสีขาว */
+    color: white; 
+    
+}

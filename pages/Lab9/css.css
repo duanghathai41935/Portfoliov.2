@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav > ul{
+    margin: 0;
+    padding:20px;
+    background-color:#594422 ;
+    
+}
+footer{
+    margin: 0;
+    padding:20px ;
+    background-color:#594422 ;
+    color: white;
+    clear: both;
+    line-height: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+#contact{
+    font-size: 14px;;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.menu1 li{
+    position: relative;
+}
+.menu1{
+    display: flex;
+}
+.menu1 a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 1.5rem;
+    color: white;
+    text-align: center;
+}
+.menu2{
+    background-color:#3BA2AC ;
+    left: 50%;
+    display: none;
+}
+
+.menu1 li:hover{
+    background-color: #3BA2AC;
+}
+
+.menu1 ul li ul{
+    background-color: #3BA2AC;
+    display: none;
+}
+.menu1 li a{
+    text-decoration: none;
+}
+.menu1 li:hover > .menu2{
+    display: block;
+}
+.menu1 li:hover > .menu-list{
+    display: block;
+}
+.menu-list{
+    width: 150px;
+    padding-left:0 ;
+    margin-left: 100%;
+    margin-top: -50px;
+}
+.menu1 li .menu2 li:hover .menu-list{
+    display: block;
+    background-color: #594422;
+}
+.lv::after{
+    position: relative;
+    content: "\25BE";
+}
+.lv1::after{
+    position: relative;
+    /* content: "\25BE"; */
+}
+.menu1 ul li:hover {
+    background-color: #594422;
+}
+.menu1 ul li:hover.menu2{
+    display: block;
+}
+.photowelcome{
+    margin: 0;
+    padding: 0;
+    background-image: url(./background1.jpeg);
+    width:60%;
+    height: 530px;
+    background-repeat: no-repeat;
+    float: left;
+
+}
+.photowelcome p{
+    color: white;
+    text-align: center;
+    line-height: 420px;
+    font-size: xxx-large;
+}
+
+.open{
+    float: left;
+}
+section{
+    display: inline-block;
+}
+h1{
+    font-size: 50px;
+}
+#lastname{
+    text-indent: 200px;
+}
+p ,h1{
+    text-indent: 50px;
+}
+article h1{
+    color: #594422;
+    text-shadow: #463112 0.1em 0.1em 0.2em;
+   
+
+}
+.text1{
+    margin-top: 120px;
+    line-height: 2px;
+}
+.text2{
+    margin-top: 110px;
+}
+article p{
+    color: #463112;
+    line-height: 3px;
+
+}
+article a{
+    border: 0px solid #594422;
+    background-color:#594422;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 72%;
+    border-radius:50px 50px ;
+    
+    
+}
+article a:hover{
+    background-color: #DBC0A4;
+    color: #463112;
+}
+.buttom{
+    margin-top:120px;
+}
